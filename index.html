@@ -1,124 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Kimai-mobile by Kimai</title>
+		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<h1>Kimai Mobile</h1>
+				<h2>jQuery mobile time tracking frontend for Kimai, optimized for usage on mobile devices</h2>
+				<a href="https://github.com/kimai/kimai-mobile" class="button"><small>View project on</small> GitHub</a>
+			</div>
+		</header>
+		<div id="content-wrapper">
+			<div class="inner clearfix">
+				<section id="main-content">
+					<h1><a id="kimai---jquery-mobile-interface" class="anchor" href="#kimai---jquery-mobile-interface" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kimai - jQuery Mobile Interface</h1>
+					<p>This repository contains a mobile optimized interface of Kimai. 
+						It's a small website that lets you start and stop your time record from 
+						mobile devices.</p>
+					<p>It's built with jQuery Mobile and works as a developer demonstration
+						for the Kimai Remote API. For now it has the following features:</p>
+					<ul>
+						<li>log in</li>
+						<li>read projects</li>
+						<li>read customers</li>
+						<li>read tasks</li>
+						<li>start the timer</li>
+						<li>stop the timer</li>
+					</ul>
+					<p>It's a very lightweight solution made with only one HTML script, a couple of 
+						Javascript files and some spicy CSS sugar on top.</p>
+					<p>Please note, that this is the first (experimental) release and many features of the 
+						complete version are missing. We don't have plans to add more features soon, but we'd like to hear 
+						your thoughts and feature requests at the <a href="https://github.com/kimai/kimai-mobile/issues">issue tracker</a>.</p>
 
-    <title>Kimai-mobile by kimai</title>
-  </head>
+					<h2><a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+					<p>To install this mobile interface:</p>
+					<ul>
+						<li>copy all the files into a sub-directory of your Kimai installation (e.g. mobile/)</li>
+						<li>point your browser to http://yourKimaiInstallation/mobile/</li>
+						<li>log in with your existing Kimai account</li>
+					</ul>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Kimai Mobile</h1>
-        <h2>jQuery mobile powered time tracking frontend for Kimai, optimized for usage on mobile end devices</h2>
-        <a href="https://github.com/kimai/kimai-mobile" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+					<h2><a id="compatibility" class="anchor" href="#compatibility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compatibility</h2>
+					<p>This mobile time tracking solution only works with Kimai revision 1353 and later.</p>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
-<a id="kimai---jquery-mobile-interface" class="anchor" href="#kimai---jquery-mobile-interface" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kimai - jQuery Mobile Interface</h1>
+					<h2><a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
+					<p>We would love to get input from all developers out there:</p>
+					<ol>
+						<li>Fork this repository</li>
+						<li>Create a branch (<code>git checkout -b my_kimai_mobile</code>)</li>
+						<li>Commit your changes (<code>git commit -am "Added foobar"</code>)</li>
+						<li>Push to the branch (<code>git push origin my_kimai_mobile</code>)</li>
+						<li>Create an <a href="https://github.com/kimai/kimai-mobile/issues">Issue</a> with a link to your branch</li>
+						<li>Now enjoy the latest episode of Big Bang Theory while we review your changes</li>
+					</ol>
 
-<p>This repository contains an mobile optimized interface of Kimai. 
-Its a small website that lets you start and stop your time record from 
-mobile devices.</p>
-
-<p>It is built with jQuery Mobile support and works as a developer demonstration
-for the Kimai Remote API. For now its has the following features:</p>
-
-<ul>
-<li>log in</li>
-<li>read projects</li>
-<li>read customers</li>
-<li>read tasks</li>
-<li>start the timer</li>
-<li>stop the timer</li>
-</ul>
-
-<p>Its a very lightweight solution made with only one HTML script, a couple of 
-Javascript files and some spicy CSS sugar on top.</p>
-
-<p>Please note, that this is the first (experimental) release and many features of the 
-complete version are missing. We don't have plans to add more features soon, but we'd like to hear 
-your about thoughts and feature requests at <a href="https://github.com/kimai/kimai-mobile/issues">the issue tracker</a>.</p>
-
-<h2>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
-
-<p>To install this mobile interface:</p>
-
-<ul>
-<li>copy all the files into a sub-directory of your Kimai installation (e.g. mobile/)</li>
-<li>point your browser to http://yourKimaiInstallation/mobile/ </li>
-<li>log in with your existing Kimai account</li>
-</ul>
-
-<h2>
-<a id="compatibility" class="anchor" href="#compatibility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compatibility</h2>
-
-<p>This mobile time tracking solution only works with Kimai revision 1353 and later.</p>
-
-<h2>
-<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
-
-<p>We would love to get input from all developer out there:</p>
-
-<ol>
-<li>Fork this repository</li>
-<li>Create a branch (<code>git checkout -b my_kimai_mobile</code>)</li>
-<li>Commit your changes (<code>git commit -am "Added foobar"</code>)</li>
-<li>Push to the branch (<code>git push origin my_kimai_mobile</code>)</li>
-<li>Create an <a href="https://github.com/kimai/kimai-mobile/issues">Issue</a> with a link to your branch</li>
-<li>Now enjoy the latest episode of Big Bang Theory while we review your changes</li>
-</ol>
-
-<h2>
-<a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h2>
-
-<p>You can get more information about Kimai:</p>
-
-<ul>
-<li>at our <a href="http://www.kimai.org">official website</a>
-</li>
-<li>at our <a href="http://forum.kimai.org">Kimai forum</a>
-</li>
-<li>in our <a href="http://www.kimai.org/en/documentation/">documentation pages</a>
-</li>
-</ul>
-
-<p>Thanks to the <a href="http://jquerymobile.com/">jQuery mobile Team</a>!</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/kimai/kimai-mobile/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/kimai/kimai-mobile/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/kimai/kimai-mobile"></a> is maintained by <a href="https://github.com/kimai">kimai</a>.</p>
-
-        </aside>
-      </div>
-    </div>
-
-<footer>
-  <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-</footer>
-  </body>
+					<h2><a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h2>
+					<p>You can get more information about Kimai:</p>
+					<ul>
+						<li>at our <a href="http://www.kimai.org">official website</a></li>
+						<li>at our <a href="http://forum.kimai.org">Kimai forum</a></li>
+						<li>in our <a href="http://www.kimai.org/documentation/">documentation pages</a></li>
+					</ul>
+					<p>Thanks to the <a href="http://jquerymobile.com/" target="_blank">jQuery mobile Team</a>!</p>
+				</section>
+				<aside id="sidebar">
+					<a href="https://github.com/kimai/kimai-mobile/zipball/master" class="button">
+						<small>Download</small> .zip file
+					</a>
+					<a href="https://github.com/kimai/kimai-mobile/tarball/master" class="button">
+						<small>Download</small> .tar.gz file
+					</a>
+					<p class="repo-owner"><a href="https://github.com/kimai/kimai-mobile"></a> is maintained by <a href="https://github.com/kimai">kimai</a>.</p>
+				</aside>
+			</div>
+		</div>
+		<footer>
+			<p>This page was generated by <a href="https://pages.github.com" target="_blank">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.</p>
+		</footer>
+	</body>
 </html>
